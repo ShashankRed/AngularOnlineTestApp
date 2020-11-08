@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE TESTING PORTAL</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active">ONLINE TESTING PORTAL</a>
+
+    </div>
+
+    <div class="container mt-5">
+        <div class="d-flex justify-content-center row">
+            <div class="col-md-10 col-lg-10">
+                <div class="border">
+                    <div class="question bg-white p-3 border-bottom">
+                        <div class="d-flex flex-row justify-content-between align-items-center mcq">
+                            <h4>ONLINE TEST</h4><span>(23 Questions in Total)</span>
+                        </div>
+                    </div>
+                    <div class="question bg-white p-3 border-bottom">
+                        <div class="d-flex flex-row align-items-center question-title">
+                            <h3 class="text-danger">Q.</h3>
+                            <h5 class="mt-1 ml-2">{{this.qes}}</h5>
+                        </div>
+                        <div class="ans ml-2">
+                            <label class="radio"> <input #rad1 type="radio" id="rdbutton1" name="opt2" value={{this.opt1}} >
+                                <span>{{this.opt1}}</span>
+                            </label>
+                        </div>
+
+                        <div class="ans ml-2">
+                            <label class="radio"> <input #rad2 type="radio" id="rdbutton2" name="opt2" value={{this.opt2}} >
+                                <span>{{this.opt2}}</span>
+                            </label>
+                        </div>
+                        <div class="ans ml-2">
+                            <label class="radio"> <input #rad3 type="radio" id="rdbutton3" name="opt2" value={{this.opt3}} >
+                                <span>{{this.opt3}}</span>
+                            </label>
+                        </div>
+                        <div class="ans ml-2">
+                            <label class="radio"> <input #rad4 type="radio" id="rdbutton4" name="opt2" value={{this.opt4}} >
+                                <span>{{this.opt4}}</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-between align-items-center p-3 bg-white"><button
+                            class="btn btn-primary border-success align-items-center btn-success" type="button"
+                            (click)="fun(rad1.checked ? rad1.value : rad2.checked ? rad2.value : rad3.checked ? rad3.value : rad4.checked ? rad4.value:null)">Next<i
+                                class="fa fa-angle-right ml-2"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="text-center"> 
+        <br><button  type="button" class="btn btn-Info" data-toggle="modal" (click)="report()" data-target="#myModal">
+        Finish
+      </button>
+    </div>
+    
+        <!-- The Modal -->
+        <div *ngIf="showModalBox" class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+    
+                    <div class="modal-body">
+                        <span>{{this.result_message}}</span>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+<!-- <div class="ans ml-2">
+    <input #rad1 type="radio" name="opt" value={{this.opt1}} >
+    <label for="{{this.opt1}}">{{this.opt1}}</label>
+    <input #rad1 type="radio" name="opt" value={{this.opt2}} >
+    <label for="{{this.opt2}}">{{this.opt2}}</label>
+    <input #rad1 type="radio" name="opt" value={{this.opt3}} >
+    <label for="{{this.opt3}}">{{this.opt3}}</label>
+    <input #rad1 type="radio" name="opt" value={{this.opt4}} >
+    <label for="{{this.opt4}}">{{this.opt4}}</label>
+     <label class="radio">  HELLO
+        <span>{{this.opt1}}</span>
+    </label> 
+</div> -->

@@ -1,0 +1,186 @@
+[
+  {
+    "ques": "Which of the following country has the largest population",
+    "option1": "Germany",
+    "option2": "Brazil",
+    "option3": "indonesia",
+    "option4": "Russia",
+    "ansr": "indonesia"
+  },
+  {
+    "ques": "Which of the following isn't a JSON type?",
+    "option1": "String",
+    "option2": "Object",
+    "option3": "Date",
+    "option4": "Array",
+    "ansr": "Date"
+  },
+  {
+    "ques": "Which is the file extension of JSON?",
+    "option1": ".jsn",
+    "option2": ".json",
+    "option3": ".jn",
+    "option4": ".js",
+    "ansr": ".json"
+  },
+  {
+    "ques": "Who is the Father of JSON?",
+    "option1": "Sergey Brin",
+    "option2": "Douglas Crockford",
+    "option3": "Liam Crockford",
+    "option4": "None of these",
+    "ansr": "Douglas Crockford"
+  },
+  {
+    "ques": "What is JSON data?",
+    "option1": "Exchanging Data",
+    "option2": "Non-echanging Data",
+    "option3": "Changing Data",
+    "option4": "None of these",
+    "ansr": "Exchanging Data"
+  },
+  {
+    "ques": "How many types of JSON Data are present at Granular level?",
+    "option1": "Six",
+    "option2": "Four",
+    "option3": "Seven",
+    "option4": "Three",
+    "ansr": "Six"
+  },
+  {
+    "ques": "Which one of the following is supported as a JSON Value type?",
+    "option1": "Undefined",
+    "option2": "Infinity",
+    "option3": "NaN",
+    "option4": "NULL",
+    "ansr": "NULL"
+  },
+  {
+    "ques": "What is the full form of JSON?",
+    "option1": "Java Standard Output Network",
+    "option2": "JavaScript Object Notation",
+    "option3": "JavaScript Output Name",
+    "option4": "Java Source Open Network",
+    "ansr": "JavaScript Object Notation"
+  },
+  {
+    "ques": "What is correct MIME type of JSON?",
+    "option1": "application/js",
+    "option2": "application/json",
+    "option3": "json/mime",
+    "option4": "application/xml",
+    "ansr": "application/json"
+  },
+  {
+    "ques": "Can a double quote be used inside a JSON String?",
+    "option1": "No, you should use single quotes",
+    "option2": "Yes, if you use the ascii code.",
+    "option3": "Yes, if it is escaped like ( \" )",
+    "option4": "Yes, you can use it without any special treatment",
+    "ansr": "Yes, if it is escaped like ( \" )"
+  },
+  {
+    "ques": "What is a JSONStringer used for?",
+    "option1": "To quickly create number to JSON text.",
+    "option2": "To create JSON ordered pairs.",
+    "option3": "To converts JSON to Java strings",
+    "option4": "To quickly create JSON text",
+    "ansr": "To quickly create number to JSON text."
+  },
+  {
+    "ques": "What two main structures compose JSON?",
+    "option1": "Arrays and Objects",
+    "option2": "Key and Value",
+    "option3": "Class and Object",
+    "option4": "None of the above",
+    "ansr": "Arrays and Objects"
+  },
+  {
+    "ques": "How do JSON provide Internationalization?",
+    "option1": "Using Unicode",
+    "option2": "Using Keys",
+    "option3": "Using Datatype",
+    "option4": "Using Lang",
+    "ansr": "Using Unicode"
+  },
+  {
+    "ques": "By which of the following is JSON elements are separated?",
+    "option1": "Line break",
+    "option2": "Semi-colon",
+    "option3": "Comma",
+    "option4": "White Space",
+    "ansr": "Comma"
+  },
+  {
+    "ques": "What is the common usage of JSON on modern websites?",
+    "option1": "To send and receive bits of data",
+    "option2": "To store information remotely",
+    "option3": "To store information locally",
+    "option4": "All of the above",
+    "ansr": "To send and receive bits of data"
+  },
+  {
+    "ques": "Which of the following code will throw an error?",
+    "option1": "JSON.parse(‘{}’);",
+    "option2": "JSON.parse(null);",
+    "option3": "JSON.parse(undefined);",
+    "option4": "JSON.parse(‘[]’);",
+    "ansr": "JSON.parse(undefined);"
+  },
+  {
+    "ques": "Which of the following is not a valid way to parse JSON String?",
+    "option1": "JSON.parse()",
+    "option2": "JSON.eval()",
+    "option3": "jQuery.parseJSON()",
+    "option4": "None of the above",
+    "ansr": "JSON.eval()"
+  },
+  {
+    "ques": "Which of these is correct about JSON standard?",
+    "option1": "It is an open standard",
+    "option2": "It is privately developed",
+    "option3": "It requires a license to use",
+    "option4": "None of the above",
+    "ansr": "It is an open standard"
+  },
+  {
+    "ques": "What keywords are reserved in JSON and cannot be used as keys?",
+    "option1": "Value",
+    "option2": "Object",
+    "option3": "None",
+    "option4": "Key",
+    "ansr": "None"
+  },
+  {
+    "ques": "Which of these data interchange formats has seen a decline in usage in favor of JSON?",
+    "option1": "ASCII",
+    "option2": "Plain-text",
+    "option3": "SQL",
+    "option4": "XML",
+    "ansr": "XML"
+  },
+  {
+    "ques": "What function will convert a JavaScript object to a JSON string?",
+    "option1": "JSON.text()",
+    "option2": "JSON.seralize()",
+    "option3": "JSON.toString()",
+    "option4": "JSON.stringify()",
+    "ansr": "JSON.stringify()"
+  },
+  {
+    "ques": "Which of the following country has the largest area",
+    "option1": "Germany",
+    "option2": "Brazil",
+    "option3": "indonesia",
+    "option4": "Russia",
+    "ansr": "Russia"
+  },
+  {
+    "ques": "Which of the following country has the largest Island",
+    "option1": "Germany",
+    "option2": "Brazil",
+    "option3": "Lahore",
+    "option4": "Russia",
+    "ansr": "indonesia"
+  }
+]
